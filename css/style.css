@@ -1,0 +1,82 @@
+.navigation {
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Space items evenly between the start and end of the container */
+    align-items: center; /* Align items vertically */
+}
+.logo img {
+    width: 30px; /* Adjust width as needed */
+    height: auto;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-menu ul li:first-child {
+    margin-left: 0;
+}
+
+.nav-menu {
+    /* No need to add margin-left: auto */
+}
+.nav-menu ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #000000; /* Set color to black */
+}
+footer {
+    background-color: #ffffff; /* Background color for the footer */
+    color: #000000; /* Text color for the footer */
+    padding-top: 100px; /* Padding around the content inside the footer */
+    padding-left: 20px;
+}
+
+h1 {
+    margin-bottom: 10px; /* Add space between h1 and links */
+}
+
+.footer-links {
+    display: inline-block;
+}
+
+.footer-links a {
+    color: #000000; /* Text color for the links */
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Add space between links */
+}
+
+.footer-links a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+.heroImg .content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.wonphoto {
+    width: 300px;
+    height: auto;
+    padding-top: 100px;
+}
+
+.text-content {
+    margin-left: 20px; /* Add spacing between image and text */
+}
+
+.text-content h1,
+.text-content p,
+.text-content button {
+    display: inline-block;
+    margin: 0;
+    margin-right: 20px; /* Add spacing between text elements */
+    padding-top: 10px
+}
